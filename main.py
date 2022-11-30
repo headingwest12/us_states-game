@@ -11,7 +11,7 @@ attempt = 0
 FONT = ("Courier", 10, "normal")
 turtle.shape(image)
 data = pandas.read_csv("50_states.csv")
-print(data["x"])
+# print(data["x"])
 # data = {"":[0123], "state":[ohio , arizona,....]}
 
 all_states = data["state"].to_list()
