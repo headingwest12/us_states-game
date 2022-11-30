@@ -11,8 +11,10 @@ attempt = 0
 FONT = ("Courier", 10, "normal")
 turtle.shape(image)
 data = pandas.read_csv("50_states.csv")
-all_states = data["state"].to_list()
+print(data["x"])
+# data = {"":[0123], "state":[ohio , arizona,....]}
 
+all_states = data["state"].to_list()
 while score < 50:
     guess = screen.textinput(title=f"{score}/50 correct states.", prompt="What's another state name.").title()
 
